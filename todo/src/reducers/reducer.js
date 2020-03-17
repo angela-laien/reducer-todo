@@ -1,7 +1,7 @@
 export const initialState = [{
-    item: '',
+    item: 'Learn about reducers',
     completed: false,
-    id: new Date()
+    id: 3892987589
 }]
 
 export function todoReducer(state, action) {

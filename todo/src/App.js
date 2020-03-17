@@ -28,7 +28,7 @@ function App() {
       <h1>Todo List</h1>
       <TodoList state={state} toggleComplete={toggleComplete} />
       <TodoForm addItem={addItem} />
-      <button onClick={e => {
+      <button className='clearbtn' onClick={e => {
         e.preventDefault()
         clearCompleted()
       }}>Clear Completed</button>

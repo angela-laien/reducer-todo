@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  margin: 10%;
+  padding: 5%;
+  border: 3px solid hotpink;
 }
 
 .App-logo {
@@ -35,4 +38,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn {
+  color: white;
+  background: pink;
+  padding: 1%;
+  margin: 1%;
+  
+}
+
+
+.btn:hover {
+  background: white;
+  color: pink;
+}
+
+.clearbtn {
+  color: pink;
+  background: black;
+  padding: 1%;
+  margin: 1%;
+
+}
+
+.clearbtn:hover {
+  background: pink;
+  color: black;
+} 
+
+input {
+  border: 1px solid violet;
+  height: 10%;
+  width: 20%;
+  padding: 1%;
 }
